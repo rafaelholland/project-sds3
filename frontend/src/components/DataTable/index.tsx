@@ -1,10 +1,9 @@
-import { Sale, SalePage } from 'types/sale';
+import {  SalePage } from 'types/sale';
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import { BASE_URL } from 'utils/requests';
 import { formatLocalDate } from 'utils/format';
 import Pagination from 'components/Pagination';
-import { IndexedAccessType } from 'typescript';
 
 const DataTable = () => {
 
